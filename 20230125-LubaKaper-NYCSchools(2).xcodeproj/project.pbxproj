@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DA999162981D6E500AC1B39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA999152981D6E500AC1B39 /* AppDelegate.swift */; };
+		8DA999182981D6E500AC1B39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA999172981D6E500AC1B39 /* SceneDelegate.swift */; };
+		8DA9991F2981D6E600AC1B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA9991E2981D6E600AC1B39 /* Assets.xcassets */; };
+		8DA999222981D6E600AC1B39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA999202981D6E600AC1B39 /* LaunchScreen.storyboard */; };
+		8DA9992A2981D81B00AC1B39 /* SchoolListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA999292981D81B00AC1B39 /* SchoolListVC.swift */; };
+		8DA9992D2981DA2000AC1B39 /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA9992C2981DA2000AC1B39 /* UIView+ext.swift */; };
+		8DA9992F2981DBD800AC1B39 /* SchoolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA9992E2981DBD800AC1B39 /* SchoolCell.swift */; };
+		8DA999322981EA6B00AC1B39 /* SchoolAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA999312981EA6B00AC1B39 /* SchoolAPIClient.swift */; };
+		8DA999342981EACF00AC1B39 /* SchoolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA999332981EACF00AC1B39 /* SchoolModel.swift */; };
+		8DA999362981EBDD00AC1B39 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA999352981EBDD00AC1B39 /* AppError.swift */; };
+		8DA999382981EC8C00AC1B39 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA999372981EC8C00AC1B39 /* NetworkHelper.swift */; };
+		8DA9993A2983313500AC1B39 /* SchoolInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA999392983313500AC1B39 /* SchoolInfoVC.swift */; };
+		8DA9993C2983348F00AC1B39 /* ScoresModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA9993B2983348F00AC1B39 /* ScoresModel.swift */; };
+		8DA9993E298337FB00AC1B39 /* SchoolDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA9993D298337FB00AC1B39 /* SchoolDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8DA999122981D6E500AC1B39 /* 20230125-LubaKaper-NYCSchools(2).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20230125-LubaKaper-NYCSchools(2).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA999152981D6E500AC1B39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DA999172981D6E500AC1B39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8DA9991E2981D6E600AC1B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DA999212981D6E600AC1B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DA999232981D6E600AC1B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA999292981D81B00AC1B39 /* SchoolListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListVC.swift; sourceTree = "<group>"; };
+		8DA9992C2981DA2000AC1B39 /* UIView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ext.swift"; sourceTree = "<group>"; };
+		8DA9992E2981DBD800AC1B39 /* SchoolCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolCell.swift; sourceTree = "<group>"; };
+		8DA999312981EA6B00AC1B39 /* SchoolAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolAPIClient.swift; sourceTree = "<group>"; };
+		8DA999332981EACF00AC1B39 /* SchoolModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolModel.swift; sourceTree = "<group>"; };
+		8DA999352981EBDD00AC1B39 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		8DA999372981EC8C00AC1B39 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		8DA999392983313500AC1B39 /* SchoolInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolInfoVC.swift; sourceTree = "<group>"; };
+		8DA9993B2983348F00AC1B39 /* ScoresModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresModel.swift; sourceTree = "<group>"; };
+		8DA9993D298337FB00AC1B39 /* SchoolDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DA9990F2981D6E500AC1B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DA999092981D6E500AC1B39 = {
+			isa = PBXGroup;
+			children = (
+				8DA999142981D6E500AC1B39 /* 20230125-LubaKaper-NYCSchools(2) */,
+				8DA999132981D6E500AC1B39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DA999132981D6E500AC1B39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DA999122981D6E500AC1B39 /* 20230125-LubaKaper-NYCSchools(2).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DA999142981D6E500AC1B39 /* 20230125-LubaKaper-NYCSchools(2) */ = {
+			isa = PBXGroup;
+			children = (
+				8DA999302981EA1700AC1B39 /* NetworkServices */,
+				8DA9992B2981D9EA00AC1B39 /* EExtensions+Utilities */,
+				8DA999152981D6E500AC1B39 /* AppDelegate.swift */,
+				8DA999172981D6E500AC1B39 /* SceneDelegate.swift */,
+				8DA9991E2981D6E600AC1B39 /* Assets.xcassets */,
+				8DA999202981D6E600AC1B39 /* LaunchScreen.storyboard */,
+				8DA999232981D6E600AC1B39 /* Info.plist */,
+				8DA999292981D81B00AC1B39 /* SchoolListVC.swift */,
+				8DA999392983313500AC1B39 /* SchoolInfoVC.swift */,
+				8DA9992E2981DBD800AC1B39 /* SchoolCell.swift */,
+				8DA9993D298337FB00AC1B39 /* SchoolDetailView.swift */,
+			);
+			path = "20230125-LubaKaper-NYCSchools(2)";
+			sourceTree = "<group>";
+		};
+		8DA9992B2981D9EA00AC1B39 /* EExtensions+Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8DA9992C2981DA2000AC1B39 /* UIView+ext.swift */,
+			);
+			path = "EExtensions+Utilities";
+			sourceTree = "<group>";
+		};
+		8DA999302981EA1700AC1B39 /* NetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				8DA999312981EA6B00AC1B39 /* SchoolAPIClient.swift */,
+				8DA999352981EBDD00AC1B39 /* AppError.swift */,
+				8DA999372981EC8C00AC1B39 /* NetworkHelper.swift */,
+				8DA999332981EACF00AC1B39 /* SchoolModel.swift */,
+				8DA9993B2983348F00AC1B39 /* ScoresModel.swift */,
+			);
+			path = NetworkServices;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DA999112981D6E500AC1B39 /* 20230125-LubaKaper-NYCSchools(2) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA999262981D6E600AC1B39 /* Build configuration list for PBXNativeTarget "20230125-LubaKaper-NYCSchools(2)" */;
+			buildPhases = (
+				8DA9990E2981D6E500AC1B39 /* Sources */,
+				8DA9990F2981D6E500AC1B39 /* Frameworks */,
+				8DA999102981D6E500AC1B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20230125-LubaKaper-NYCSchools(2)";
+			productName = "20230125-LubaKaper-NYCSchools(2)";
+			productReference = 8DA999122981D6E500AC1B39 /* 20230125-LubaKaper-NYCSchools(2).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DA9990A2981D6E500AC1B39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8DA999112981D6E500AC1B39 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 8DA9990D2981D6E500AC1B39 /* Build configuration list for PBXProject "20230125-LubaKaper-NYCSchools(2)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DA999092981D6E500AC1B39;
+			productRefGroup = 8DA999132981D6E500AC1B39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DA999112981D6E500AC1B39 /* 20230125-LubaKaper-NYCSchools(2) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DA999102981D6E500AC1B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA999222981D6E600AC1B39 /* LaunchScreen.storyboard in Resources */,
+				8DA9991F2981D6E600AC1B39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DA9990E2981D6E500AC1B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA9993A2983313500AC1B39 /* SchoolInfoVC.swift in Sources */,
+				8DA9992D2981DA2000AC1B39 /* UIView+ext.swift in Sources */,
+				8DA999382981EC8C00AC1B39 /* NetworkHelper.swift in Sources */,
+				8DA999322981EA6B00AC1B39 /* SchoolAPIClient.swift in Sources */,
+				8DA9992F2981DBD800AC1B39 /* SchoolCell.swift in Sources */,
+				8DA9993C2983348F00AC1B39 /* ScoresModel.swift in Sources */,
+				8DA999162981D6E500AC1B39 /* AppDelegate.swift in Sources */,
+				8DA999362981EBDD00AC1B39 /* AppError.swift in Sources */,
+				8DA999342981EACF00AC1B39 /* SchoolModel.swift in Sources */,
+				8DA9992A2981D81B00AC1B39 /* SchoolListVC.swift in Sources */,
+				8DA999182981D6E500AC1B39 /* SceneDelegate.swift in Sources */,
+				8DA9993E298337FB00AC1B39 /* SchoolDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8DA999202981D6E600AC1B39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DA999212981D6E600AC1B39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DA999242981D6E600AC1B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DA999252981D6E600AC1B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DA999272981D6E600AC1B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNV924Q9C2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "20230125-LubaKaper-NYCSchools(2)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lubakaper.-0230125-LubaKaper-NYCSchools-2-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DA999282981D6E600AC1B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNV924Q9C2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "20230125-LubaKaper-NYCSchools(2)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lubakaper.-0230125-LubaKaper-NYCSchools-2-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DA9990D2981D6E500AC1B39 /* Build configuration list for PBXProject "20230125-LubaKaper-NYCSchools(2)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA999242981D6E600AC1B39 /* Debug */,
+				8DA999252981D6E600AC1B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA999262981D6E600AC1B39 /* Build configuration list for PBXNativeTarget "20230125-LubaKaper-NYCSchools(2)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA999272981D6E600AC1B39 /* Debug */,
+				8DA999282981D6E600AC1B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DA9990A2981D6E500AC1B39 /* Project object */;
+}
