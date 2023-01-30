@@ -46,7 +46,7 @@ class SchoolInfoVC: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         let lblTitle = UILabel()
         
-        let titleAttribute: [NSAttributedString.Key: Any] = [.font: UIFont.boldSystemFont(ofSize: 15), .foregroundColor: UIColor.black]
+        let titleAttribute: [NSAttributedString.Key: Any] = [.font: UIFont.boldSystemFont(ofSize: 20), .foregroundColor: UIColor.black]
         
         let attributeString = NSMutableAttributedString(string: school.schoolName, attributes: titleAttribute)
         
@@ -65,7 +65,7 @@ class SchoolInfoVC: UIViewController {
         detailView.schoolAddressLabel.text = "School address: \(school.primaryAddressLine1), \(school.city)."
         for score in scores {
             if school.dbn == score.dbn {
-                detailView.numberOfTakersLabel.text = "Number of students who took SAT: \(score.num_of_sat_test_takers)"
+                detailView.numberOfTakersLabel.text = "Number of students who took SAT: \(score.numOfSatTestTakers)"
                 detailView.mathScoreLabel.text = "Math average Score: \(score.satMathAvgScore)"
                 detailView.readingScoreLabel.text = "Reading average Score: \(score.satCriticalReadingAvgScore)"
                 detailView.writingScoreLabel.text = "Writing average Score: \(score.satWritingAvgScore)"

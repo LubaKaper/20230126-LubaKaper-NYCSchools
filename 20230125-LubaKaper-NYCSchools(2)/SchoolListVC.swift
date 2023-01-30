@@ -53,32 +53,6 @@ class SchoolListVC: UIViewController {
         self.navigationItem.leftBarButtonItem = leftNavBarButton
     }
     
-    
-   // func configureTableView() {
-        //view.addSubview(tableView)
-        //set other delegates
-        
-        //set row height
-       // tableView.rowHeight = 100
-        //register cells
-       // tableView.register(SchoolCell.self, forCellReuseIdentifier: "schoolCell")
-        //set constraints
-        //tableView.pin(to: view)
-      //  queryAPI()
-        
-   // }
-    
-//    private func queryAPI() {
-//        SchoolAPIClient.fetchSchool { [weak self] (result) in
-//            switch result {
-//            case failure(let appError):
-//                print("error fetching schools : \(appError)")
-//            case .success(let schools):
-//                self?.schools = schools
-//            }
-//        }
-//    }
-    
 }
 
 extension SchoolListVC: UITableViewDelegate, UITableViewDataSource {
@@ -91,7 +65,6 @@ extension SchoolListVC: UITableViewDelegate, UITableViewDataSource {
             fatalError("Could not dequeue SchoolCell")
         }
         let school = schools[indexPath.row]
-        //cell.configureCell(with: school)
         cell.schoolNameLabel.text = school.schoolName
         cell.backgroundColor = .systemMint
         return cell
@@ -101,7 +74,6 @@ extension SchoolListVC: UITableViewDelegate, UITableViewDataSource {
         return 100
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("roow selected")
         let school = schools[indexPath.row]
         let schoolInfoVC = SchoolInfoVC(score: school)
         navigationController?.pushViewController(schoolInfoVC, animated: true)

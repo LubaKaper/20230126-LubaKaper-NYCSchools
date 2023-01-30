@@ -46,15 +46,6 @@ class SchoolCell: UITableViewCell {
         setupSchoolImageConstraint()
     }
     
-//    override func layoutSubviews() {
-//        super.layoutSubviews()
-//        
-//        let imageSize = contentView.frame.size.height-6
-//        
-//        schoolNameLabel.frame = CGRect(x: 5, y: 5, width: 300, height: contentView.frame.size.height-10)
-//        schoolImage.frame = CGRect(x: CGFloat(Int(contentView.frame.size.width-imageSize)), y: 3, width: imageSize, height: imageSize)
-//    }
-//    
     private func setupSchoolNameLabelConstraint() {
         addSubview(schoolNameLabel)
         schoolNameLabel.translatesAutoresizingMaskIntoConstraints = false

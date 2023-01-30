@@ -12,12 +12,9 @@
 		8DA9991F2981D6E600AC1B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA9991E2981D6E600AC1B39 /* Assets.xcassets */; };
 		8DA999222981D6E600AC1B39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA999202981D6E600AC1B39 /* LaunchScreen.storyboard */; };
 		8DA9992A2981D81B00AC1B39 /* SchoolListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA999292981D81B00AC1B39 /* SchoolListVC.swift */; };
-		8DA9992D2981DA2000AC1B39 /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA9992C2981DA2000AC1B39 /* UIView+ext.swift */; };
 		8DA9992F2981DBD800AC1B39 /* SchoolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA9992E2981DBD800AC1B39 /* SchoolCell.swift */; };
 		8DA999322981EA6B00AC1B39 /* SchoolAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA999312981EA6B00AC1B39 /* SchoolAPIClient.swift */; };
 		8DA999342981EACF00AC1B39 /* SchoolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA999332981EACF00AC1B39 /* SchoolModel.swift */; };
-		8DA999362981EBDD00AC1B39 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA999352981EBDD00AC1B39 /* AppError.swift */; };
-		8DA999382981EC8C00AC1B39 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA999372981EC8C00AC1B39 /* NetworkHelper.swift */; };
 		8DA9993A2983313500AC1B39 /* SchoolInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA999392983313500AC1B39 /* SchoolInfoVC.swift */; };
 		8DA9993C2983348F00AC1B39 /* ScoresModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA9993B2983348F00AC1B39 /* ScoresModel.swift */; };
 		8DA9993E298337FB00AC1B39 /* SchoolDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA9993D298337FB00AC1B39 /* SchoolDetailView.swift */; };
@@ -31,12 +28,9 @@
 		8DA999212981D6E600AC1B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DA999232981D6E600AC1B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DA999292981D81B00AC1B39 /* SchoolListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListVC.swift; sourceTree = "<group>"; };
-		8DA9992C2981DA2000AC1B39 /* UIView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ext.swift"; sourceTree = "<group>"; };
 		8DA9992E2981DBD800AC1B39 /* SchoolCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolCell.swift; sourceTree = "<group>"; };
 		8DA999312981EA6B00AC1B39 /* SchoolAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolAPIClient.swift; sourceTree = "<group>"; };
 		8DA999332981EACF00AC1B39 /* SchoolModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolModel.swift; sourceTree = "<group>"; };
-		8DA999352981EBDD00AC1B39 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
-		8DA999372981EC8C00AC1B39 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		8DA999392983313500AC1B39 /* SchoolInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolInfoVC.swift; sourceTree = "<group>"; };
 		8DA9993B2983348F00AC1B39 /* ScoresModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresModel.swift; sourceTree = "<group>"; };
 		8DA9993D298337FB00AC1B39 /* SchoolDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailView.swift; sourceTree = "<group>"; };
@@ -72,35 +66,24 @@
 		8DA999142981D6E500AC1B39 /* 20230125-LubaKaper-NYCSchools(2) */ = {
 			isa = PBXGroup;
 			children = (
+				8DA999292981D81B00AC1B39 /* SchoolListVC.swift */,
+				8DA999392983313500AC1B39 /* SchoolInfoVC.swift */,
+				8DA9992E2981DBD800AC1B39 /* SchoolCell.swift */,
+				8DA9993D298337FB00AC1B39 /* SchoolDetailView.swift */,
 				8DA999302981EA1700AC1B39 /* NetworkServices */,
-				8DA9992B2981D9EA00AC1B39 /* EExtensions+Utilities */,
 				8DA999152981D6E500AC1B39 /* AppDelegate.swift */,
 				8DA999172981D6E500AC1B39 /* SceneDelegate.swift */,
 				8DA9991E2981D6E600AC1B39 /* Assets.xcassets */,
 				8DA999202981D6E600AC1B39 /* LaunchScreen.storyboard */,
 				8DA999232981D6E600AC1B39 /* Info.plist */,
-				8DA999292981D81B00AC1B39 /* SchoolListVC.swift */,
-				8DA999392983313500AC1B39 /* SchoolInfoVC.swift */,
-				8DA9992E2981DBD800AC1B39 /* SchoolCell.swift */,
-				8DA9993D298337FB00AC1B39 /* SchoolDetailView.swift */,
 			);
 			path = "20230125-LubaKaper-NYCSchools(2)";
-			sourceTree = "<group>";
-		};
-		8DA9992B2981D9EA00AC1B39 /* EExtensions+Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				8DA9992C2981DA2000AC1B39 /* UIView+ext.swift */,
-			);
-			path = "EExtensions+Utilities";
 			sourceTree = "<group>";
 		};
 		8DA999302981EA1700AC1B39 /* NetworkServices */ = {
 			isa = PBXGroup;
 			children = (
 				8DA999312981EA6B00AC1B39 /* SchoolAPIClient.swift */,
-				8DA999352981EBDD00AC1B39 /* AppError.swift */,
-				8DA999372981EC8C00AC1B39 /* NetworkHelper.swift */,
 				8DA999332981EACF00AC1B39 /* SchoolModel.swift */,
 				8DA9993B2983348F00AC1B39 /* ScoresModel.swift */,
 			);
@@ -178,13 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DA9993A2983313500AC1B39 /* SchoolInfoVC.swift in Sources */,
-				8DA9992D2981DA2000AC1B39 /* UIView+ext.swift in Sources */,
-				8DA999382981EC8C00AC1B39 /* NetworkHelper.swift in Sources */,
 				8DA999322981EA6B00AC1B39 /* SchoolAPIClient.swift in Sources */,
 				8DA9992F2981DBD800AC1B39 /* SchoolCell.swift in Sources */,
 				8DA9993C2983348F00AC1B39 /* ScoresModel.swift in Sources */,
 				8DA999162981D6E500AC1B39 /* AppDelegate.swift in Sources */,
-				8DA999362981EBDD00AC1B39 /* AppError.swift in Sources */,
 				8DA999342981EACF00AC1B39 /* SchoolModel.swift in Sources */,
 				8DA9992A2981D81B00AC1B39 /* SchoolListVC.swift in Sources */,
 				8DA999182981D6E500AC1B39 /* SceneDelegate.swift in Sources */,
